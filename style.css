@@ -1,0 +1,17 @@
+.container {
+	border: 2px solid black;
+	display:flex;
+	box-sizing: border-box;
+	gap: 1em;
+	padding: 0.5em;
+	justify-content: center;
+	border-radius: 0.5em;
+}
+.container > div {
+	border: 2px solid black;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	display: flex;
+	flex: 1 1 200px;
+
+}
