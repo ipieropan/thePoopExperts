@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+}
+nav {
+	display: flex;
+	justify-content: center;
+}
+.nav-container {
+	/* border: 2px solid black; */
+	width: 100vh;
+    height: 40vh;
+	background-image: url('navbild.img');
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	flex-wrap: 1;
+	box-sizing: border-box;
+	gap: 1em;
+	padding: 0.5em;
+	justify-content: flex-end;
+	border-radius: 0.5em;
+	text-align: center;
+	align-items: flex-end;
+	
+}
+.nav-container > div {
+	/* border: 2px solid black; */
+	background-color: rgba(255, 255, 255, 0.0);
+	padding: 0.2em;
+	height: 20px;
+	border-radius: 0.5em;
+	display: flex;
+	flex: 1 1 200px;
+	justify-content: center;
+	align-items: end;
+
+}
+.nav-container > div:hover {
+    background-color: lightblue;
+	position: relative;
+	bottom: 0.4em;
+}
+.nav-container > div a {
+    text-decoration: none; /* Ta bort standardunderstrykning */
+    color: rgb(255, 255, 255); /* Justera textfärgen om det behövs */
+    border-bottom: 2px solid orange; /* Lägg till orange understrykning */
+    padding-bottom: 0; /* Ta bort padding under texten */
+    transition: border-color 0.3s; /* Gör understrykningen smidig */
+	text-align: end;
+	align-items: flex-end;
+}
