@@ -1,6 +1,6 @@
 footer{
-	background-color: blue;
-	color: white;
+	background-color: #15157a;
+	color: #ffffff;
 	width:88em ;
 	height:24em ;
 	display: flex;
@@ -58,11 +58,11 @@ footer{
 
 
 .chatt{
-	background-color: rgb(210, 16, 16);
-	color: white;
+	background-color: #d21010;
+	color: #ffffff;
 	width: 7em;
 	height: 2.6em;
-	border: 3px solid white;
+	border: 3px solid #ffffff;
 	border-radius: 12px;
 	position: fixed;
 	margin-right: 20em;
@@ -72,5 +72,5 @@ footer{
 	
 }
 .chatt:hover{
-	background-color: rgb(11, 94, 94);
+	background-color: #1d9595;
 }
