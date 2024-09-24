@@ -1,8 +1,8 @@
 footer{
-	background-color: blue;
+	background-color: rgb(8, 8, 90);
 	color: white;
 	width:88em ;
-	height:24em ;
+	height:25em ;
 	display: flex;
 
 }
