@@ -1,6 +1,6 @@
 footer{
 	background-color: rgb(8, 8, 90);
-	color: white;
+	color: #ffffff;
 	width:88em ;
 	height:25em ;
 	display: flex;
@@ -60,7 +60,7 @@ footer{
 
 .chatt{
 	background-color: rgb(210, 16, 16);
-	color: white;
+	color: #ffffff;
 	width: 7em;
 	height: 2.6em;
 	border: 3px solid white;
