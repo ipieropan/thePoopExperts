@@ -4,6 +4,7 @@ body {
 	background-color: #fbfbfb;
 }
 
+/* container wrapping everything about the team */
 .container {
 	width: 80%;
 	margin: auto;
@@ -17,6 +18,7 @@ p {
 	color: #666;
 }
 
+/* container for the group of imgs*/
 .team {
 	display: flex;
 	flex-wrap: wrap;
