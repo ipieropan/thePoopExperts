@@ -1,5 +1,5 @@
 footer{
-	background-color: rgb(8, 8, 90);
+	background-color: #15157a;
 	color: #ffffff;
 	width:88em ;
 	height:25em ;
@@ -59,11 +59,11 @@ footer{
 
 
 .chatt{
-	background-color: rgb(210, 16, 16);
+	background-color: #d21010;
 	color: #ffffff;
 	width: 7em;
 	height: 2.6em;
-	border: 3px solid white;
+	border: 3px solid #ffffff;
 	border-radius: 12px;
 	position: fixed;
 	margin-right: 20em;
@@ -73,5 +73,5 @@ footer{
 	
 }
 .chatt:hover{
-	background-color: rgb(17, 124, 124);
+	background-color: #1d9595;
 }
