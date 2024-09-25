@@ -9,7 +9,7 @@ nav {
 	/* border: 2px solid black; */
 	width: 100vh;
     height: 40vh;
-	background-image: url('navbild.img');
+	/* background-image: url('navbild.img'); */
 	background-size: cover;
 	background-position: center;
 	display:flex;
@@ -42,7 +42,7 @@ nav {
 }
 .nav-container > div a {
     text-decoration: none; /* Ta bort standardunderstrykning */
-    color: rgb(255, 255, 255); /* Justera textfärgen om det behövs */
+    color: rgb(0, 0, 0); /* Justera textfärgen om det behövs */
     border-bottom: 2px solid orange; /* Lägg till orange understrykning */
     padding-bottom: 0; /* Ta bort padding under texten */
     transition: border-color 0.3s; /* Gör understrykningen smidig */
