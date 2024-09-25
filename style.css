@@ -1,51 +1,76 @@
 body {
-	margin: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-nav {
-	display: flex;
-	justify-content: center;
-}
-.nav-container {
-	/* border: 2px solid black; */
-	width: 100vh;
-    height: 40vh;
-	/* background-image: url('navbild.img'); */
-	background-size: cover;
-	background-position: center;
-	display:flex;
-	flex-wrap: 1;
-	box-sizing: border-box;
-	gap: 1em;
-	padding: 0.5em;
-	justify-content: flex-end;
-	border-radius: 0.5em;
-	text-align: center;
-	align-items: flex-end;
-	
-}
-.nav-container > div {
-	/* border: 2px solid black; */
-	background-color: rgba(255, 255, 255, 0.0);
-	padding: 0.2em;
-	height: 20px;
-	border-radius: 0.5em;
-	display: flex;
-	flex: 1 1 200px;
-	justify-content: center;
-	align-items: end;
 
+nav {
+    display: flex;
+    justify-content: center;
 }
+
+.nav-container {
+    width: 90vw;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;	/* Tillåter wrap */
+    box-sizing: border-box;
+    gap: 1em;
+    padding: 1em;
+    justify-content: flex-end;
+    border-radius: 0.5em;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-container > div {
+    background-color: rgba(255, 255, 255, 0.0);
+    font-size: 20px;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    display: flex;
+    flex: 1 1 auto; /* Tillåter flex-grow och flex-shrink */
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-container > div:hover {
     background-color: lightblue;
-	position: relative;
-	bottom: 0.4em;
+    position: relative;
+    bottom: 0.4em;
 }
+
 .nav-container > div a {
-    text-decoration: none; /* Ta bort standardunderstrykning */
-    color: rgb(0, 0, 0); /* Justera textfärgen om det behövs */
-    border-bottom: 2px solid orange; /* Lägg till orange understrykning */
-    padding-bottom: 0; /* Ta bort padding under texten */
-    transition: border-color 0.3s; /* Gör understrykningen smidig */
-	text-align: end;
-	align-items: flex-end;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid orange;
+    padding-bottom: 0.2em;
+    transition: border-color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: row; /* Håll det i rad tills den minskar ytterligare */
+        height: auto;
+    }
+
+    .nav-container > div {
+        flex: 1 1 45%; /* Tillåter att två knappar kan vara bredvid varandra på mellanstora skärmar */
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-container {
+        flex-direction: column; /* Lägger knapparna i kolumn på mindre skärmar */
+        padding: 0.5em;
+    }
+
+    .nav-container > div {
+        flex: 1 1 100%; /* Gör varje knapp full bredd */
+        font-size: 16px;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
 }
