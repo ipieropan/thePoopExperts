@@ -4,7 +4,6 @@
 footer{
 	background-color: #15157a;
 	color: #ffffff;
-	width:94em ;
 	height:25em ;
 	display: flex;
 
@@ -69,13 +68,14 @@ footer{
 	border: 3px solid #ffffff;
 	border-radius: 12px;
 	position: absolute;
-	margin-right: 18em;
 	text-align: center;
-	margin-top: 16em;
-	
-	
-	
+	position: fixed;
+    right: 1em;
+    bottom: 4em;
 }
+	
+	
+	
 .chatt:hover{
 	background-color: #1d9595;
 }
