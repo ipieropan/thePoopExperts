@@ -61,20 +61,19 @@ footer{
 
 
 
-.chatt{
+.chatt {
 	background-color: #d21010;
 	color: #ffffff;
 	width: 7em;
 	height: 2.6em;
 	border: 3px solid #ffffff;
 	border-radius: 12px;
-	position: fixed;
-	margin-right: 20em;
 	text-align: center;
-	margin-top: 16em;
-	
-	
+	align-self: center; /* Centrerar knappen inom flexboxen */
+	margin-top: 1em;
 }
+
+
 .chatt:hover{
 	background-color: #1d9595;
 }
