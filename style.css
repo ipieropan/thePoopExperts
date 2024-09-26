@@ -68,10 +68,10 @@ footer{
 	height: 2.6em;
 	border: 3px solid #ffffff;
 	border-radius: 12px;
-	position: fixed;
-	margin-right: 20em;
+	position: absolute;
+	margin-right: 18em;
 	text-align: center;
-	margin-top: 10em;
+	margin-top: 16em;
 	
 	
 }
