@@ -4,7 +4,7 @@
 footer{
 	background-color: #15157a;
 	color: #ffffff;
-	width:88em ;
+	width:94em ;
 	height:25em ;
 	display: flex;
 
@@ -71,7 +71,7 @@ footer{
 	position: fixed;
 	margin-right: 20em;
 	text-align: center;
-	margin-top: 16em;
+	margin-top: 10em;
 	
 	
 }
