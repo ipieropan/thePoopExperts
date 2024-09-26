@@ -1,68 +1,80 @@
-body {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    color: white;
+
+ /* Här börjar footer */
+
+footer{
+	background-color: #15157a;
+	color: #ffffff;
+	width:88em ;
+	height:25em ;
+	display: flex;
+
 }
-.main-container {
-    display: flex;
-    flex-direction: column;
-    /* background-color: rgb(79, 237, 76); */
-    width: 18em;
-    padding-top: 1.3em;
+
+
+.first{
+	margin: 2.2em;
+	padding: 1.5em;
+
+
 }
-p {
-    color: rgb(7, 58, 92);
+.first > p:hover{
+	text-decoration: underline;
+	
 }
-h1 {
-    color: rgb(7, 58, 92);
-    font-size: 60px;
+.second{
+	margin: 2em;
+	padding: 1.5em;
+
 }
-.title-container {
-    display: flex;
-    align-self: flex-start;
-    color: white;
+.second > p:hover{
+	text-decoration: underline;
 }
-.button-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    gap: 5px;
+.third{
+	margin: 2em;
+	padding: 1.5em;
 }
-button:hover {
-    background-color: rgb(7, 58, 92);
-    color: white;
+.third > p:hover{
+	text-decoration: underline;
 }
-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 12em;
-    height: 4em;
-    border-radius: 5em;
-    background-color: #ffffff;
-    color: rgb(7, 58, 92);
-    font-style: bold;
+.four{
+	margin: 2em;
+	padding: 1.5em;
+
 }
-#Bathroom {
-    color: rgb(71, 182, 255);
+.visa{
+	width: 4.5em;
+	height: 4.2em;
+
 }
-#undertext-title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.1rem;
-    color: rgb(7, 58, 92);
+.master{
+	width: 5.6em;
+	height: 3.2em;
+
 }
-.right-container {
+.swish{
+	width: 6em;
+	height: 3.5em;
+	
+
 }
-.left-container {
-    padding-left: 11em;
-    padding-top: 12em;
+
+
+
+
+.chatt{
+	background-color: #d21010;
+	color: #ffffff;
+	width: 7em;
+	height: 2.6em;
+	border: 3px solid #ffffff;
+	border-radius: 12px;
+	position: fixed;
+	margin-right: 20em;
+	text-align: center;
+	margin-top: 16em;
+	
+	
 }
-.right-container img {
-    position: relative;
-    width: 550px;
-    height: 550px;
-    padding-top: 5em;
-    padding-left: 5em;
+.chatt:hover{
+	background-color: #1d9595;
 }
