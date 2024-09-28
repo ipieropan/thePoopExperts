@@ -1,13 +1,16 @@
 
  /* Här börjar footer */
 
-footer{
-	background-color: #15157a;
-	color: #ffffff;
-	width:88em ;
-	height:25em ;
-	display: flex;
-
+footer {
+    background-color: #15157a;
+    color: #ffffff;
+    width: 100%; /* Full width */
+    height: 25em;
+    display: flex;
+    justify-content: space-between; 
+    box-sizing: border-box; 
+    padding: 1em; 
+    margin: 0; 
 }
 
 
