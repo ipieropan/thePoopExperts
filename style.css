@@ -79,3 +79,25 @@ footer{
 .chatt:hover{
 	background-color: #1d9595;
 }
+
+/*media queri*/
+
+@media screen and (max-width: 900px){
+        footer{
+			background-color: #15157a;
+			display: flex;
+		}
+
+}
+	
+
+@media screen and (max-width: 600px){
+	footer{
+		background-color: #15157a;
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+}
+	
