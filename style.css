@@ -1,5 +1,33 @@
+footer {
+    background-color: #15157a;
+    color: #ffffff;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
 
- /* Här börjar footer */
+.first, .second, .third, .four {
+    flex: 1 1 20%; 
+    margin: 1em;
+    padding: 1.5em;
+    min-width: 250px; 
+}
+
+.first > p:hover,
+.second > p:hover,
+.third > p:hover {
+    text-decoration: underline;
+}
+
+.visa, .master, .swish {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+ /* Här börjar footer 
 
 footer{
 	background-color: #15157a;
@@ -80,7 +108,7 @@ footer{
 	background-color: #1d9595;
 }
 
-/*media queri*/
+/*media queri
 
 @media screen and (max-width: 900px){
         footer{
