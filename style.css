@@ -65,9 +65,9 @@ footer{
 
 }
 .chatt-section {
-    flex: 1 1 100%; /* Tar hela bredden om du vill placera den längst ner */
+    flex: 1 1 100%;
     display: flex;
-    justify-content: center; /* Centrerar knappen horisontellt */
+    justify-content: center; 
 }
 
 
@@ -81,7 +81,7 @@ footer{
 	border: 3px solid #ffffff;
 	border-radius: 12px;
 	text-align: center;
-	align-self: center; /* Centrerar knappen inom flexboxen */
+	align-self: center; 
 	margin-top: 1em;
 }
 
