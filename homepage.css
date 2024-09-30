@@ -1,29 +1,35 @@
 main {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    color: white;
+    background-color: #ffffff;
+    color: #ffffff;
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
+
 .main-container {
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(79, 237, 76); */
     width: 18em;
     padding-top: 1.3em;
 }
+
 .homepage p {
-    color: rgb(7, 58, 92);
+    color: #073a5c;
 }
+
 .homepage h1 {
-    color: rgb(7, 58, 92);
+    color: #073a5c;
     font-size: 60px;
-	margin: 0;
+    margin: 0;
 }
+
 .title-container {
     display: flex;
     align-self: flex-start;
-    color: white;
+    color: #ffffff;
 }
+
 .button-container {
     display: flex;
     flex-direction: row;
@@ -31,10 +37,12 @@ main {
     align-items: center;
     gap: 5px;
 }
+
 .homepage button:hover {
-    background-color: rgb(7, 58, 92);
-    color: white;
+    background-color: #073a5c;
+    color: #ffffff;
 }
+
 .homepage button {
     display: flex;
     justify-content: center;
@@ -43,27 +51,77 @@ main {
     height: 4em;
     border-radius: 5em;
     background-color: #ffffff;
-    color: rgb(7, 58, 92);
+    color: #073a5c;
     font-style: bold;
 }
+
 #expertise {
-    color: rgb(71, 182, 255);
+    color: #47b6ff;
 }
+
 #undertext-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1rem;
-    color: rgb(7, 58, 92);
+    color: #073a5c;
 }
 
 .left-container {
     padding-left: 11em;
-    /* padding-top: 12em; */
 }
+
 .right-container img {
     position: relative;
-	bottom: 2em;
+    bottom: 2em;
     width: 550px;
     height: 550px;
-    /* padding-top: 5em; */
     padding-left: 5em;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .left-container {
+        padding-left: 5em; 
+    }
+    .right-container img {
+        width: 450px;
+        height: 450px;
+        padding-left: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .left-container {
+        padding-left: 0; 
+        text-align: center; 
+    }
+    .right-container img {
+        width: 300px;
+        height: 300px; 
+        padding-left: 0;
+    }
+    .homepage h1 {
+        font-size: 40px; 
+    }
+    .homepage button {
+        width: 10em;
+        height: 3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .homepage h1 {
+        font-size: 30px;
+    }
+    .homepage button {
+        width: 8em;
+        height: 2.5em;
+    }
+    .right-container img {
+        width: 250px;
+        height: 250px;
+    }
 }
