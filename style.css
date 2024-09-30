@@ -87,6 +87,7 @@ footer {
         footer{
 			background-color: #15157a;
 			display: flex;
+			flex-wrap: wrap;
 			
 		}
 
@@ -101,4 +102,4 @@ footer {
 
 	
 }
-	
+}	
