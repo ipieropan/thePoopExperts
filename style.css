@@ -67,7 +67,7 @@ footer {
 .chatt {
 	background-color: #d21010;
 	color: #ffffff;
-	width: 7em;
+	width: 6.8em;
 	height: 2.6em;
 	border: 3px solid #ffffff;
 	border-radius: 12px;
@@ -80,3 +80,25 @@ footer {
 .chatt:hover{
 	background-color: #1d9595;
 }
+
+/*media queri*/
+
+@media screen and (max-width: 900px){
+        footer{
+			background-color: #15157a;
+			display: flex;
+		}
+
+}
+	
+
+@media screen and (max-width: 600px){
+	footer{
+		background-color: #15157a;
+		display: flex;
+		flex-direction: column;
+	}
+
+	
+}
+	
