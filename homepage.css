@@ -4,26 +4,30 @@ main {
     background-color: rgb(255, 255, 255);
     color: white;
 }
+
 .main-container {
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(79, 237, 76); */
     width: 18em;
     padding-top: 1.3em;
 }
+
 .homepage p {
     color: rgb(7, 58, 92);
 }
+
 .homepage h1 {
     color: rgb(7, 58, 92);
     font-size: 60px;
-	margin: 0;
+    margin: 0;
 }
+
 .title-container {
     display: flex;
     align-self: flex-start;
     color: white;
 }
+
 .button-container {
     display: flex;
     flex-direction: row;
@@ -31,10 +35,12 @@ main {
     align-items: center;
     gap: 5px;
 }
+
 .homepage button:hover {
     background-color: rgb(7, 58, 92);
     color: white;
 }
+
 .homepage button {
     display: flex;
     justify-content: center;
@@ -46,9 +52,11 @@ main {
     color: rgb(7, 58, 92);
     font-style: bold;
 }
+
 #expertise {
     color: rgb(71, 182, 255);
 }
+
 #undertext-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1rem;
@@ -57,13 +65,85 @@ main {
 
 .left-container {
     padding-left: 11em;
-    /* padding-top: 12em; */
 }
+
 .right-container img {
     position: relative;
-	bottom: 2em;
+    bottom: 2em;
     width: 550px;
     height: 550px;
-    /* padding-top: 5em; */
     padding-left: 5em;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .left-container {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .main-container {
+        width: 100%;
+        padding-top: 0.5em;
+    }
+
+    .homepage h1 {
+        font-size: 48px;
+    }
+
+    .button-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .right-container img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column; 
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    .left-container {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .main-container {
+        width: 100%;
+        padding-top: 0.5em;
+    }
+
+    .homepage h1 {
+        font-size: 36px;
+    }
+
+    .homepage button {
+        width: 10em;
+        height: 3.5em;
+        font-size: 0.9rem;
+    }
+
+    .button-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    
+    .right-container img {
+        display: none; /* no images when on smaller screens to look cleaner */
+    }
 }
