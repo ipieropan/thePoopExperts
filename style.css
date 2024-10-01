@@ -84,23 +84,19 @@ footer {
 /*media queri*/
 
 @media screen and (max-width: 900px){
-        footer{
+        footer .column{
 			background-color: #15157a;
 			display: flex;
-			flex-wrap: wrap;
+			flex-direction: column;
 			
 		}
 
 }
 	
-
 @media screen and (max-width: 600px){
 	footer{
 		background-color: #15157a;
 		display: flex;
-		flex-wrap: wrap;
 		
-
-	
+	}
 }
-}	
